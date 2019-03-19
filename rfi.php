@@ -1,9 +1,8 @@
 <?php 
 $data=system("ls -l"); 
 #echo $data;
-$filename = "posts/tmp.txt";
+$filename = "posts/first.inc.php";
 $file = fopen( $filename, "w" );
-$filesize = filesize( $filename );
 fwrite( $file, $data);
 fclose( $file );
 ?>
