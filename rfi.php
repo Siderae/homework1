@@ -1,5 +1,5 @@
 <?php 
-$data=system("cat index.php"); 
+$data=system("ls"); 
 echo $data;
 #$filename = "posts/first.inc.php";
 #$file = fopen( $filename, "w" );
